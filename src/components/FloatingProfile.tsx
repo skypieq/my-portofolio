@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { cn } from "@/src/lib/utils";
-import profileImg from "../assets/profile.jpg";
+
+const profileImg = "/assets/profile.jpg";
 
 export default function FloatingProfile() {
   return (
