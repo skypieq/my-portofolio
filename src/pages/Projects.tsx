@@ -3,13 +3,13 @@ import { Award, X, ZoomIn } from "lucide-react";
 import { useState } from "react";
 
 // Import images
-import projectEnterprise from "@/src/assets/project-enterprise.png";
-import projectMtcna from "@/src/assets/project-mtcna.png";
-import projectSuperlab from "@/src/assets/project-superlab.png";
-import certMtcna from "@/src/assets/cert-mtcna.jpeg";
-import certMtcre from "@/src/assets/cert-mtcre.jpeg";
-import certVm from "@/src/assets/cert-vm.jpeg";
-import certToefl from "@/src/assets/cert-toefl.jpeg";
+import projectEnterprise from "../assets/project-enterprise.png";
+import projectMtcna from "../assets/project-mtcna.png";
+import projectSuperlab from "../assets/project-superlab.png";
+import certMtcna from "../assets/cert-mtcna.jpeg";
+import certMtcre from "../assets/cert-mtcre.jpeg";
+import certVm from "../assets/cert-vm.jpeg";
+import certToefl from "../assets/cert-toefl.jpeg";
 
 const projects = [
   {
