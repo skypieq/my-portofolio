@@ -2,14 +2,14 @@ import { motion, AnimatePresence } from "motion/react";
 import { Award, X, ZoomIn } from "lucide-react";
 import { useState } from "react";
 
-// Image paths from public/assets
-const projectEnterprise = "/assets/project-enterprise.png";
-const projectMtcna = "/assets/project-mtcna.png";
-const projectSuperlab = "/assets/project-superlab.png";
-const certMtcna = "/assets/cert-mtcna.jpeg";
-const certMtcre = "/assets/cert-mtcre.jpeg";
-const certVm = "/assets/cert-vm.jpeg";
-const certToefl = "/assets/cert-toefl.jpeg";
+// Image paths from public root
+const projectEnterprise = "/project-enterprise.png";
+const projectMtcna = "/project-mtcna.png";
+const projectSuperlab = "/project-superlab.png";
+const certMtcna = "/cert-mtcna.jpeg";
+const certMtcre = "/cert-mtcre.jpeg";
+const certVm = "/cert-vm.jpeg";
+const certToefl = "/cert-toefl.jpeg";
 
 const projects = [
   {
